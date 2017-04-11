@@ -1,0 +1,3 @@
+/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles/edit_cache.dir
+/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles/rebuild_cache.dir
+/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles/scheduler.dir
