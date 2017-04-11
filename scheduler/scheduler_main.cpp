@@ -35,7 +35,7 @@ namespace
 
 int main()
 {
-  int numJobs = 500;
+  int numJobs = 10;
   std::cout<<"Fifo"<<std::endl;
   /*TODO vary the simulation parameters to get richer results for your report*/
   cs3100::SimulationParameters fifo;
