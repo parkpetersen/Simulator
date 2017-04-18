@@ -6,8 +6,26 @@ CMakeFiles/scheduler.dir/ApproximateShortestJobFirstReadyQueue.cpp.o
  /home/pi/Desktop/Scheduler1/scheduler/ApproximateShortestJobFirstReadyQueue.hpp
  /home/pi/Desktop/Scheduler1/scheduler/CacheAlgorithm.hpp
  /home/pi/Desktop/Scheduler1/scheduler/Event.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/FifoMemory.hpp
  /home/pi/Desktop/Scheduler1/scheduler/FifoReadyQueue.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/LeastRecentlyUsed.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/MostRecentlyUsed.hpp
  /home/pi/Desktop/Scheduler1/scheduler/ReadyQueue.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/SecondChance.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/ShortestJobFirstReadyQueue.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/Simulation.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/Task.hpp
+CMakeFiles/scheduler.dir/FifoMemory.cpp.o
+ /home/pi/Desktop/Scheduler1/scheduler/ApproximateShortestJobFirstReadyQueue.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/CacheAlgorithm.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/Event.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/FifoMemory.cpp
+ /home/pi/Desktop/Scheduler1/scheduler/FifoMemory.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/FifoReadyQueue.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/LeastRecentlyUsed.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/MostRecentlyUsed.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/ReadyQueue.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/SecondChance.hpp
  /home/pi/Desktop/Scheduler1/scheduler/ShortestJobFirstReadyQueue.hpp
  /home/pi/Desktop/Scheduler1/scheduler/Simulation.hpp
  /home/pi/Desktop/Scheduler1/scheduler/Task.hpp
@@ -15,12 +33,58 @@ CMakeFiles/scheduler.dir/FifoReadyQueue.cpp.o
  /home/pi/Desktop/Scheduler1/scheduler/FifoReadyQueue.cpp
  /home/pi/Desktop/Scheduler1/scheduler/FifoReadyQueue.hpp
  /home/pi/Desktop/Scheduler1/scheduler/ReadyQueue.hpp
+CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.o
+ /home/pi/Desktop/Scheduler1/scheduler/ApproximateShortestJobFirstReadyQueue.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/CacheAlgorithm.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/Event.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/FifoMemory.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/FifoReadyQueue.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/LeastRecentlyUsed.cpp
+ /home/pi/Desktop/Scheduler1/scheduler/LeastRecentlyUsed.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/MostRecentlyUsed.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/ReadyQueue.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/SecondChance.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/ShortestJobFirstReadyQueue.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/Simulation.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/Task.hpp
+CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.o
+ /home/pi/Desktop/Scheduler1/scheduler/ApproximateShortestJobFirstReadyQueue.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/CacheAlgorithm.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/Event.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/FifoMemory.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/FifoReadyQueue.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/LeastRecentlyUsed.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/MostRecentlyUsed.cpp
+ /home/pi/Desktop/Scheduler1/scheduler/MostRecentlyUsed.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/ReadyQueue.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/SecondChance.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/ShortestJobFirstReadyQueue.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/Simulation.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/Task.hpp
+CMakeFiles/scheduler.dir/SecondChance.cpp.o
+ /home/pi/Desktop/Scheduler1/scheduler/ApproximateShortestJobFirstReadyQueue.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/CacheAlgorithm.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/Event.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/FifoMemory.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/FifoReadyQueue.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/LeastRecentlyUsed.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/MostRecentlyUsed.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/ReadyQueue.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/SecondChance.cpp
+ /home/pi/Desktop/Scheduler1/scheduler/SecondChance.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/ShortestJobFirstReadyQueue.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/Simulation.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/Task.hpp
 CMakeFiles/scheduler.dir/ShortestJobFirstReadyQueue.cpp.o
  /home/pi/Desktop/Scheduler1/scheduler/ApproximateShortestJobFirstReadyQueue.hpp
  /home/pi/Desktop/Scheduler1/scheduler/CacheAlgorithm.hpp
  /home/pi/Desktop/Scheduler1/scheduler/Event.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/FifoMemory.hpp
  /home/pi/Desktop/Scheduler1/scheduler/FifoReadyQueue.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/LeastRecentlyUsed.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/MostRecentlyUsed.hpp
  /home/pi/Desktop/Scheduler1/scheduler/ReadyQueue.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/SecondChance.hpp
  /home/pi/Desktop/Scheduler1/scheduler/ShortestJobFirstReadyQueue.cpp
  /home/pi/Desktop/Scheduler1/scheduler/ShortestJobFirstReadyQueue.hpp
  /home/pi/Desktop/Scheduler1/scheduler/Simulation.hpp
@@ -29,8 +93,12 @@ CMakeFiles/scheduler.dir/Simulation.cpp.o
  /home/pi/Desktop/Scheduler1/scheduler/ApproximateShortestJobFirstReadyQueue.hpp
  /home/pi/Desktop/Scheduler1/scheduler/CacheAlgorithm.hpp
  /home/pi/Desktop/Scheduler1/scheduler/Event.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/FifoMemory.hpp
  /home/pi/Desktop/Scheduler1/scheduler/FifoReadyQueue.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/LeastRecentlyUsed.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/MostRecentlyUsed.hpp
  /home/pi/Desktop/Scheduler1/scheduler/ReadyQueue.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/SecondChance.hpp
  /home/pi/Desktop/Scheduler1/scheduler/ShortestJobFirstReadyQueue.hpp
  /home/pi/Desktop/Scheduler1/scheduler/Simulation.cpp
  /home/pi/Desktop/Scheduler1/scheduler/Simulation.hpp
@@ -43,8 +111,12 @@ CMakeFiles/scheduler.dir/scheduler_main.cpp.o
  /home/pi/Desktop/Scheduler1/scheduler/ApproximateShortestJobFirstReadyQueue.hpp
  /home/pi/Desktop/Scheduler1/scheduler/CacheAlgorithm.hpp
  /home/pi/Desktop/Scheduler1/scheduler/Event.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/FifoMemory.hpp
  /home/pi/Desktop/Scheduler1/scheduler/FifoReadyQueue.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/LeastRecentlyUsed.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/MostRecentlyUsed.hpp
  /home/pi/Desktop/Scheduler1/scheduler/ReadyQueue.hpp
+ /home/pi/Desktop/Scheduler1/scheduler/SecondChance.hpp
  /home/pi/Desktop/Scheduler1/scheduler/ShortestJobFirstReadyQueue.hpp
  /home/pi/Desktop/Scheduler1/scheduler/Simulation.hpp
  /home/pi/Desktop/Scheduler1/scheduler/Task.hpp

@@ -150,6 +150,33 @@ ApproximateShortestJobFirstReadyQueue.cpp.s:
 	$(MAKE) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/ApproximateShortestJobFirstReadyQueue.cpp.s
 .PHONY : ApproximateShortestJobFirstReadyQueue.cpp.s
 
+FifoMemory.o: FifoMemory.cpp.o
+
+.PHONY : FifoMemory.o
+
+# target to build an object file
+FifoMemory.cpp.o:
+	$(MAKE) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/FifoMemory.cpp.o
+.PHONY : FifoMemory.cpp.o
+
+FifoMemory.i: FifoMemory.cpp.i
+
+.PHONY : FifoMemory.i
+
+# target to preprocess a source file
+FifoMemory.cpp.i:
+	$(MAKE) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/FifoMemory.cpp.i
+.PHONY : FifoMemory.cpp.i
+
+FifoMemory.s: FifoMemory.cpp.s
+
+.PHONY : FifoMemory.s
+
+# target to generate assembly for a file
+FifoMemory.cpp.s:
+	$(MAKE) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/FifoMemory.cpp.s
+.PHONY : FifoMemory.cpp.s
+
 FifoReadyQueue.o: FifoReadyQueue.cpp.o
 
 .PHONY : FifoReadyQueue.o
@@ -176,6 +203,87 @@ FifoReadyQueue.s: FifoReadyQueue.cpp.s
 FifoReadyQueue.cpp.s:
 	$(MAKE) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/FifoReadyQueue.cpp.s
 .PHONY : FifoReadyQueue.cpp.s
+
+LeastRecentlyUsed.o: LeastRecentlyUsed.cpp.o
+
+.PHONY : LeastRecentlyUsed.o
+
+# target to build an object file
+LeastRecentlyUsed.cpp.o:
+	$(MAKE) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.o
+.PHONY : LeastRecentlyUsed.cpp.o
+
+LeastRecentlyUsed.i: LeastRecentlyUsed.cpp.i
+
+.PHONY : LeastRecentlyUsed.i
+
+# target to preprocess a source file
+LeastRecentlyUsed.cpp.i:
+	$(MAKE) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.i
+.PHONY : LeastRecentlyUsed.cpp.i
+
+LeastRecentlyUsed.s: LeastRecentlyUsed.cpp.s
+
+.PHONY : LeastRecentlyUsed.s
+
+# target to generate assembly for a file
+LeastRecentlyUsed.cpp.s:
+	$(MAKE) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.s
+.PHONY : LeastRecentlyUsed.cpp.s
+
+MostRecentlyUsed.o: MostRecentlyUsed.cpp.o
+
+.PHONY : MostRecentlyUsed.o
+
+# target to build an object file
+MostRecentlyUsed.cpp.o:
+	$(MAKE) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.o
+.PHONY : MostRecentlyUsed.cpp.o
+
+MostRecentlyUsed.i: MostRecentlyUsed.cpp.i
+
+.PHONY : MostRecentlyUsed.i
+
+# target to preprocess a source file
+MostRecentlyUsed.cpp.i:
+	$(MAKE) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.i
+.PHONY : MostRecentlyUsed.cpp.i
+
+MostRecentlyUsed.s: MostRecentlyUsed.cpp.s
+
+.PHONY : MostRecentlyUsed.s
+
+# target to generate assembly for a file
+MostRecentlyUsed.cpp.s:
+	$(MAKE) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.s
+.PHONY : MostRecentlyUsed.cpp.s
+
+SecondChance.o: SecondChance.cpp.o
+
+.PHONY : SecondChance.o
+
+# target to build an object file
+SecondChance.cpp.o:
+	$(MAKE) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/SecondChance.cpp.o
+.PHONY : SecondChance.cpp.o
+
+SecondChance.i: SecondChance.cpp.i
+
+.PHONY : SecondChance.i
+
+# target to preprocess a source file
+SecondChance.cpp.i:
+	$(MAKE) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/SecondChance.cpp.i
+.PHONY : SecondChance.cpp.i
+
+SecondChance.s: SecondChance.cpp.s
+
+.PHONY : SecondChance.s
+
+# target to generate assembly for a file
+SecondChance.cpp.s:
+	$(MAKE) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/SecondChance.cpp.s
+.PHONY : SecondChance.cpp.s
 
 ShortestJobFirstReadyQueue.o: ShortestJobFirstReadyQueue.cpp.o
 
@@ -297,9 +405,21 @@ help:
 	@echo "... ApproximateShortestJobFirstReadyQueue.o"
 	@echo "... ApproximateShortestJobFirstReadyQueue.i"
 	@echo "... ApproximateShortestJobFirstReadyQueue.s"
+	@echo "... FifoMemory.o"
+	@echo "... FifoMemory.i"
+	@echo "... FifoMemory.s"
 	@echo "... FifoReadyQueue.o"
 	@echo "... FifoReadyQueue.i"
 	@echo "... FifoReadyQueue.s"
+	@echo "... LeastRecentlyUsed.o"
+	@echo "... LeastRecentlyUsed.i"
+	@echo "... LeastRecentlyUsed.s"
+	@echo "... MostRecentlyUsed.o"
+	@echo "... MostRecentlyUsed.i"
+	@echo "... MostRecentlyUsed.s"
+	@echo "... SecondChance.o"
+	@echo "... SecondChance.i"
+	@echo "... SecondChance.s"
 	@echo "... ShortestJobFirstReadyQueue.o"
 	@echo "... ShortestJobFirstReadyQueue.i"
 	@echo "... ShortestJobFirstReadyQueue.s"

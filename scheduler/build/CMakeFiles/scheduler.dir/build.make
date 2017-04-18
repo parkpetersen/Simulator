@@ -57,9 +57,33 @@ include CMakeFiles/scheduler.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/scheduler.dir/flags.make
 
+CMakeFiles/scheduler.dir/FifoMemory.cpp.o: CMakeFiles/scheduler.dir/flags.make
+CMakeFiles/scheduler.dir/FifoMemory.cpp.o: ../FifoMemory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/scheduler.dir/FifoMemory.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scheduler.dir/FifoMemory.cpp.o -c /home/pi/Desktop/Scheduler1/scheduler/FifoMemory.cpp
+
+CMakeFiles/scheduler.dir/FifoMemory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scheduler.dir/FifoMemory.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/Desktop/Scheduler1/scheduler/FifoMemory.cpp > CMakeFiles/scheduler.dir/FifoMemory.cpp.i
+
+CMakeFiles/scheduler.dir/FifoMemory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scheduler.dir/FifoMemory.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/Desktop/Scheduler1/scheduler/FifoMemory.cpp -o CMakeFiles/scheduler.dir/FifoMemory.cpp.s
+
+CMakeFiles/scheduler.dir/FifoMemory.cpp.o.requires:
+
+.PHONY : CMakeFiles/scheduler.dir/FifoMemory.cpp.o.requires
+
+CMakeFiles/scheduler.dir/FifoMemory.cpp.o.provides: CMakeFiles/scheduler.dir/FifoMemory.cpp.o.requires
+	$(MAKE) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/FifoMemory.cpp.o.provides.build
+.PHONY : CMakeFiles/scheduler.dir/FifoMemory.cpp.o.provides
+
+CMakeFiles/scheduler.dir/FifoMemory.cpp.o.provides.build: CMakeFiles/scheduler.dir/FifoMemory.cpp.o
+
+
 CMakeFiles/scheduler.dir/FifoReadyQueue.cpp.o: CMakeFiles/scheduler.dir/flags.make
 CMakeFiles/scheduler.dir/FifoReadyQueue.cpp.o: ../FifoReadyQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/scheduler.dir/FifoReadyQueue.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/scheduler.dir/FifoReadyQueue.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scheduler.dir/FifoReadyQueue.cpp.o -c /home/pi/Desktop/Scheduler1/scheduler/FifoReadyQueue.cpp
 
 CMakeFiles/scheduler.dir/FifoReadyQueue.cpp.i: cmake_force
@@ -81,9 +105,57 @@ CMakeFiles/scheduler.dir/FifoReadyQueue.cpp.o.provides: CMakeFiles/scheduler.dir
 CMakeFiles/scheduler.dir/FifoReadyQueue.cpp.o.provides.build: CMakeFiles/scheduler.dir/FifoReadyQueue.cpp.o
 
 
+CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.o: CMakeFiles/scheduler.dir/flags.make
+CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.o: ../LeastRecentlyUsed.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.o -c /home/pi/Desktop/Scheduler1/scheduler/LeastRecentlyUsed.cpp
+
+CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/Desktop/Scheduler1/scheduler/LeastRecentlyUsed.cpp > CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.i
+
+CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/Desktop/Scheduler1/scheduler/LeastRecentlyUsed.cpp -o CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.s
+
+CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.o.requires:
+
+.PHONY : CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.o.requires
+
+CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.o.provides: CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.o.requires
+	$(MAKE) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.o.provides.build
+.PHONY : CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.o.provides
+
+CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.o.provides.build: CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.o
+
+
+CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.o: CMakeFiles/scheduler.dir/flags.make
+CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.o: ../MostRecentlyUsed.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.o -c /home/pi/Desktop/Scheduler1/scheduler/MostRecentlyUsed.cpp
+
+CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/Desktop/Scheduler1/scheduler/MostRecentlyUsed.cpp > CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.i
+
+CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/Desktop/Scheduler1/scheduler/MostRecentlyUsed.cpp -o CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.s
+
+CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.o.requires:
+
+.PHONY : CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.o.requires
+
+CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.o.provides: CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.o.requires
+	$(MAKE) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.o.provides.build
+.PHONY : CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.o.provides
+
+CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.o.provides.build: CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.o
+
+
 CMakeFiles/scheduler.dir/ShortestJobFirstReadyQueue.cpp.o: CMakeFiles/scheduler.dir/flags.make
 CMakeFiles/scheduler.dir/ShortestJobFirstReadyQueue.cpp.o: ../ShortestJobFirstReadyQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/scheduler.dir/ShortestJobFirstReadyQueue.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/scheduler.dir/ShortestJobFirstReadyQueue.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scheduler.dir/ShortestJobFirstReadyQueue.cpp.o -c /home/pi/Desktop/Scheduler1/scheduler/ShortestJobFirstReadyQueue.cpp
 
 CMakeFiles/scheduler.dir/ShortestJobFirstReadyQueue.cpp.i: cmake_force
@@ -107,7 +179,7 @@ CMakeFiles/scheduler.dir/ShortestJobFirstReadyQueue.cpp.o.provides.build: CMakeF
 
 CMakeFiles/scheduler.dir/ApproximateShortestJobFirstReadyQueue.cpp.o: CMakeFiles/scheduler.dir/flags.make
 CMakeFiles/scheduler.dir/ApproximateShortestJobFirstReadyQueue.cpp.o: ../ApproximateShortestJobFirstReadyQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/scheduler.dir/ApproximateShortestJobFirstReadyQueue.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/scheduler.dir/ApproximateShortestJobFirstReadyQueue.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scheduler.dir/ApproximateShortestJobFirstReadyQueue.cpp.o -c /home/pi/Desktop/Scheduler1/scheduler/ApproximateShortestJobFirstReadyQueue.cpp
 
 CMakeFiles/scheduler.dir/ApproximateShortestJobFirstReadyQueue.cpp.i: cmake_force
@@ -129,9 +201,33 @@ CMakeFiles/scheduler.dir/ApproximateShortestJobFirstReadyQueue.cpp.o.provides: C
 CMakeFiles/scheduler.dir/ApproximateShortestJobFirstReadyQueue.cpp.o.provides.build: CMakeFiles/scheduler.dir/ApproximateShortestJobFirstReadyQueue.cpp.o
 
 
+CMakeFiles/scheduler.dir/SecondChance.cpp.o: CMakeFiles/scheduler.dir/flags.make
+CMakeFiles/scheduler.dir/SecondChance.cpp.o: ../SecondChance.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/scheduler.dir/SecondChance.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scheduler.dir/SecondChance.cpp.o -c /home/pi/Desktop/Scheduler1/scheduler/SecondChance.cpp
+
+CMakeFiles/scheduler.dir/SecondChance.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scheduler.dir/SecondChance.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/Desktop/Scheduler1/scheduler/SecondChance.cpp > CMakeFiles/scheduler.dir/SecondChance.cpp.i
+
+CMakeFiles/scheduler.dir/SecondChance.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scheduler.dir/SecondChance.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/Desktop/Scheduler1/scheduler/SecondChance.cpp -o CMakeFiles/scheduler.dir/SecondChance.cpp.s
+
+CMakeFiles/scheduler.dir/SecondChance.cpp.o.requires:
+
+.PHONY : CMakeFiles/scheduler.dir/SecondChance.cpp.o.requires
+
+CMakeFiles/scheduler.dir/SecondChance.cpp.o.provides: CMakeFiles/scheduler.dir/SecondChance.cpp.o.requires
+	$(MAKE) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/SecondChance.cpp.o.provides.build
+.PHONY : CMakeFiles/scheduler.dir/SecondChance.cpp.o.provides
+
+CMakeFiles/scheduler.dir/SecondChance.cpp.o.provides.build: CMakeFiles/scheduler.dir/SecondChance.cpp.o
+
+
 CMakeFiles/scheduler.dir/Simulation.cpp.o: CMakeFiles/scheduler.dir/flags.make
 CMakeFiles/scheduler.dir/Simulation.cpp.o: ../Simulation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/scheduler.dir/Simulation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/scheduler.dir/Simulation.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scheduler.dir/Simulation.cpp.o -c /home/pi/Desktop/Scheduler1/scheduler/Simulation.cpp
 
 CMakeFiles/scheduler.dir/Simulation.cpp.i: cmake_force
@@ -155,7 +251,7 @@ CMakeFiles/scheduler.dir/Simulation.cpp.o.provides.build: CMakeFiles/scheduler.d
 
 CMakeFiles/scheduler.dir/Task.cpp.o: CMakeFiles/scheduler.dir/flags.make
 CMakeFiles/scheduler.dir/Task.cpp.o: ../Task.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/scheduler.dir/Task.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/scheduler.dir/Task.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scheduler.dir/Task.cpp.o -c /home/pi/Desktop/Scheduler1/scheduler/Task.cpp
 
 CMakeFiles/scheduler.dir/Task.cpp.i: cmake_force
@@ -179,7 +275,7 @@ CMakeFiles/scheduler.dir/Task.cpp.o.provides.build: CMakeFiles/scheduler.dir/Tas
 
 CMakeFiles/scheduler.dir/scheduler_main.cpp.o: CMakeFiles/scheduler.dir/flags.make
 CMakeFiles/scheduler.dir/scheduler_main.cpp.o: ../scheduler_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/scheduler.dir/scheduler_main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/scheduler.dir/scheduler_main.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scheduler.dir/scheduler_main.cpp.o -c /home/pi/Desktop/Scheduler1/scheduler/scheduler_main.cpp
 
 CMakeFiles/scheduler.dir/scheduler_main.cpp.i: cmake_force
@@ -203,9 +299,13 @@ CMakeFiles/scheduler.dir/scheduler_main.cpp.o.provides.build: CMakeFiles/schedul
 
 # Object files for target scheduler
 scheduler_OBJECTS = \
+"CMakeFiles/scheduler.dir/FifoMemory.cpp.o" \
 "CMakeFiles/scheduler.dir/FifoReadyQueue.cpp.o" \
+"CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.o" \
+"CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.o" \
 "CMakeFiles/scheduler.dir/ShortestJobFirstReadyQueue.cpp.o" \
 "CMakeFiles/scheduler.dir/ApproximateShortestJobFirstReadyQueue.cpp.o" \
+"CMakeFiles/scheduler.dir/SecondChance.cpp.o" \
 "CMakeFiles/scheduler.dir/Simulation.cpp.o" \
 "CMakeFiles/scheduler.dir/Task.cpp.o" \
 "CMakeFiles/scheduler.dir/scheduler_main.cpp.o"
@@ -213,15 +313,19 @@ scheduler_OBJECTS = \
 # External object files for target scheduler
 scheduler_EXTERNAL_OBJECTS =
 
+scheduler: CMakeFiles/scheduler.dir/FifoMemory.cpp.o
 scheduler: CMakeFiles/scheduler.dir/FifoReadyQueue.cpp.o
+scheduler: CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.o
+scheduler: CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.o
 scheduler: CMakeFiles/scheduler.dir/ShortestJobFirstReadyQueue.cpp.o
 scheduler: CMakeFiles/scheduler.dir/ApproximateShortestJobFirstReadyQueue.cpp.o
+scheduler: CMakeFiles/scheduler.dir/SecondChance.cpp.o
 scheduler: CMakeFiles/scheduler.dir/Simulation.cpp.o
 scheduler: CMakeFiles/scheduler.dir/Task.cpp.o
 scheduler: CMakeFiles/scheduler.dir/scheduler_main.cpp.o
 scheduler: CMakeFiles/scheduler.dir/build.make
 scheduler: CMakeFiles/scheduler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable scheduler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable scheduler"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scheduler.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -229,9 +333,13 @@ CMakeFiles/scheduler.dir/build: scheduler
 
 .PHONY : CMakeFiles/scheduler.dir/build
 
+CMakeFiles/scheduler.dir/requires: CMakeFiles/scheduler.dir/FifoMemory.cpp.o.requires
 CMakeFiles/scheduler.dir/requires: CMakeFiles/scheduler.dir/FifoReadyQueue.cpp.o.requires
+CMakeFiles/scheduler.dir/requires: CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.o.requires
+CMakeFiles/scheduler.dir/requires: CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.o.requires
 CMakeFiles/scheduler.dir/requires: CMakeFiles/scheduler.dir/ShortestJobFirstReadyQueue.cpp.o.requires
 CMakeFiles/scheduler.dir/requires: CMakeFiles/scheduler.dir/ApproximateShortestJobFirstReadyQueue.cpp.o.requires
+CMakeFiles/scheduler.dir/requires: CMakeFiles/scheduler.dir/SecondChance.cpp.o.requires
 CMakeFiles/scheduler.dir/requires: CMakeFiles/scheduler.dir/Simulation.cpp.o.requires
 CMakeFiles/scheduler.dir/requires: CMakeFiles/scheduler.dir/Task.cpp.o.requires
 CMakeFiles/scheduler.dir/requires: CMakeFiles/scheduler.dir/scheduler_main.cpp.o.requires

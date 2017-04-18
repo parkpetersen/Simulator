@@ -36,7 +36,9 @@ namespace
 int main()
 {
   int numJobs = 10;
-  std::cout<<"Fifo"<<std::endl;
+  int cacheSize = 10;
+
+  std::cout<<"Always in Cache"<<std::endl;
   /*TODO vary the simulation parameters to get richer results for your report*/
   cs3100::SimulationParameters fifo;
   fifo.cpus = 4;
@@ -56,6 +58,84 @@ int main()
   responseTimes.clear();
   std::cout<<"---------------------------------------------------------------------------------------"<<std::endl;
 
+  std::cout<<"Fifo"<<std::endl;
+  cs3100::SimulationParameters fifo1;
+  fifo1.cpus = 4;
+  fifo1.devices = 2;
+  fifo1.cacheSize = cacheSize;
+  fifo1.contextSwitchCost = 0.1f;
+  fifo1.cacheMissCost = 1.0f;
+  fifo1.maximumTimeSlice = std::numeric_limits<float>::max();
+  fifo1.jobs = numJobs;
+  fifo1.meanTimeBetweenJobs = 10.0f;
+  fifo1.stddevTimeBetweenJobs = 2.0f;
+  // create simulation with specific parameters and algorithms
+  runSimulation<cs3100::FifoReadyQueue, cs3100::FifoMemory>(fifo1);
+  std::cout<<"Average Latency: "<<std::accumulate(latencies.begin(), latencies.end(), 0.0f)/fifo1.jobs<<std::endl;
+  std::cout<<"Average Response Time: "<<std::accumulate(responseTimes.begin(), responseTimes.end(), 0.0f)/fifo1.jobs<<std::endl;
+  latencies.clear();
+  responseTimes.clear();
+  std::cout<<"---------------------------------------------------------------------------------------"<<std::endl;
+
+  std::cout<<"Least Recently Used"<<std::endl;
+  cs3100::SimulationParameters LRU;
+  LRU.cpus = 4;
+  LRU.devices = 2;
+  LRU.cacheSize = cacheSize;
+  LRU.contextSwitchCost = 0.1f;
+  LRU.cacheMissCost = 1.0f;
+  LRU.maximumTimeSlice = std::numeric_limits<float>::max();
+  LRU.jobs = numJobs;
+  LRU.meanTimeBetweenJobs = 10.0f;
+  LRU.stddevTimeBetweenJobs = 2.0f;
+  // create simulation with specific parameters and algorithms
+  runSimulation<cs3100::FifoReadyQueue, cs3100::LeastRecentlyUsed>(LRU);
+  std::cout<<"Average Latency: "<<std::accumulate(latencies.begin(), latencies.end(), 0.0f)/LRU.jobs<<std::endl;
+  std::cout<<"Average Response Time: "<<std::accumulate(responseTimes.begin(), responseTimes.end(), 0.0f)/LRU.jobs<<std::endl;
+  latencies.clear();
+  responseTimes.clear();
+  std::cout<<"---------------------------------------------------------------------------------------"<<std::endl;
+
+
+  std::cout<<"Most Recently Used"<<std::endl;
+  cs3100::SimulationParameters MRU;
+  MRU.cpus = 4;
+  MRU.devices = 2;
+  MRU.cacheSize = cacheSize;
+  MRU.contextSwitchCost = 0.1f;
+  MRU.cacheMissCost = 1.0f;
+  MRU.maximumTimeSlice = std::numeric_limits<float>::max();
+  MRU.jobs = numJobs;
+  MRU.meanTimeBetweenJobs = 10.0f;
+  MRU.stddevTimeBetweenJobs = 2.0f;
+  // create simulation with specific parameters and algorithms
+  runSimulation<cs3100::FifoReadyQueue, cs3100::MostRecentlyUsed>(MRU);
+  std::cout<<"Average Latency: "<<std::accumulate(latencies.begin(), latencies.end(), 0.0f)/MRU.jobs<<std::endl;
+  std::cout<<"Average Response Time: "<<std::accumulate(responseTimes.begin(), responseTimes.end(), 0.0f)/MRU.jobs<<std::endl;
+  latencies.clear();
+  responseTimes.clear();
+  std::cout<<"---------------------------------------------------------------------------------------"<<std::endl;
+
+  std::cout<<"Second Chance"<<std::endl;
+  cs3100::SimulationParameters sc;
+  sc.cpus = 4;
+  sc.devices = 2;
+  sc.cacheSize = cacheSize;
+  sc.contextSwitchCost = 0.1f;
+  sc.cacheMissCost = 1.0f;
+  sc.maximumTimeSlice = std::numeric_limits<float>::max();
+  sc.jobs = numJobs;
+  sc.meanTimeBetweenJobs = 10.0f;
+  sc.stddevTimeBetweenJobs = 2.0f;
+  // create simulation with specific parameters and algorithms
+  runSimulation<cs3100::FifoReadyQueue, cs3100::SecondChance>(sc);
+  std::cout<<"Average Latency: "<<std::accumulate(latencies.begin(), latencies.end(), 0.0f)/sc.jobs<<std::endl;
+  std::cout<<"Average Response Time: "<<std::accumulate(responseTimes.begin(), responseTimes.end(), 0.0f)/sc.jobs<<std::endl;
+  latencies.clear();
+  responseTimes.clear();
+  std::cout<<"---------------------------------------------------------------------------------------"<<std::endl;
+
+/*
   std::cout<<"Round Robin"<<std::endl;
   cs3100::SimulationParameters roundRobin;
   roundRobin.cpus = 4;
@@ -112,5 +192,5 @@ int main()
   latencies.clear();
   responseTimes.clear();
   std::cout<<"---------------------------------------------------------------------------------------"<<std::endl;
-
+*/
 }

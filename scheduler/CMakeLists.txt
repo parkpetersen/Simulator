@@ -16,13 +16,21 @@ set(scheduler_srcs
   AlwaysInCache.hpp
   CacheAlgorithm.hpp
   Event.hpp
+  FifoMemory.cpp
+  FifoMemory.hpp
   FifoReadyQueue.cpp
   FifoReadyQueue.hpp
+  LeastRecentlyUsed.cpp
+  LeastRecentlyUsed.hpp
+  MostRecentlyUsed.cpp
+  MostRecentlyUsed.hpp
   ReadyQueue.hpp
   ShortestJobFirstReadyQueue.cpp
   ShortestJobFirstReadyQueue.hpp
   ApproximateShortestJobFirstReadyQueue.cpp
   ApproximateShortestJobFirstReadyQueue.hpp
+  SecondChance.cpp
+  SecondChance.hpp
   Simulation.cpp
   Simulation.hpp
   Task.cpp

@@ -8,6 +8,10 @@
 #include "Task.hpp"
 #include "ShortestJobFirstReadyQueue.hpp"
 #include "ApproximateShortestJobFirstReadyQueue.hpp"
+#include "FifoMemory.hpp"
+#include "LeastRecentlyUsed.hpp"
+#include "MostRecentlyUsed.hpp"
+#include "SecondChance.hpp"
 #include <memory>
 #include <queue>
 #include <vector>
@@ -58,6 +62,22 @@ namespace cs3100
       {
         ASJF->associateSimulator(this); 
       }
+      if(cs3100::FifoMemory *FifoMemory = dynamic_cast<cs3100::FifoMemory*>(cache.get()))
+      {
+        FifoMemory->associateSimulator(this);
+      }
+      if(cs3100::LeastRecentlyUsed *LRU = dynamic_cast<cs3100::LeastRecentlyUsed*>(cache.get()))
+      {
+        LRU->associateSimulator(this);
+      }
+      if(cs3100::MostRecentlyUsed *MRU = dynamic_cast<cs3100::MostRecentlyUsed*>(cache.get()))
+      {
+        MRU->associateSimulator(this);
+      }
+      if(cs3100::SecondChance *second = dynamic_cast<cs3100::SecondChance*>(cache.get()))
+      {
+        second->associateSimulator(this);
+      }
     }
     void run();
     float getEfficiency();
@@ -68,6 +88,7 @@ namespace cs3100
     float adjustedResponseTime(int);
     float getJobTime(int);
     int getNumTasks(int);
+    int getCacheSize() {return parameters.cacheSize;}
 
   private:
     void createJob();

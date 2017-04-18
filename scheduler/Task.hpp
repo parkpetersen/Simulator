@@ -11,6 +11,7 @@ namespace cs3100
     float progress;
     float completionTime;
     const int device;
+    bool cacheMiss = false;
     enum Type
     {
       CPU,

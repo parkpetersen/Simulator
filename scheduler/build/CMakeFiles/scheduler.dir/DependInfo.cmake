@@ -5,7 +5,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/pi/Desktop/Scheduler1/scheduler/ApproximateShortestJobFirstReadyQueue.cpp" "/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles/scheduler.dir/ApproximateShortestJobFirstReadyQueue.cpp.o"
+  "/home/pi/Desktop/Scheduler1/scheduler/FifoMemory.cpp" "/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles/scheduler.dir/FifoMemory.cpp.o"
   "/home/pi/Desktop/Scheduler1/scheduler/FifoReadyQueue.cpp" "/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles/scheduler.dir/FifoReadyQueue.cpp.o"
+  "/home/pi/Desktop/Scheduler1/scheduler/LeastRecentlyUsed.cpp" "/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.o"
+  "/home/pi/Desktop/Scheduler1/scheduler/MostRecentlyUsed.cpp" "/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.o"
+  "/home/pi/Desktop/Scheduler1/scheduler/SecondChance.cpp" "/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles/scheduler.dir/SecondChance.cpp.o"
   "/home/pi/Desktop/Scheduler1/scheduler/ShortestJobFirstReadyQueue.cpp" "/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles/scheduler.dir/ShortestJobFirstReadyQueue.cpp.o"
   "/home/pi/Desktop/Scheduler1/scheduler/Simulation.cpp" "/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles/scheduler.dir/Simulation.cpp.o"
   "/home/pi/Desktop/Scheduler1/scheduler/Task.cpp" "/home/pi/Desktop/Scheduler1/scheduler/build/CMakeFiles/scheduler.dir/Task.cpp.o"

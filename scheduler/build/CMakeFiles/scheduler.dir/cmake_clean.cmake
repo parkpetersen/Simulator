@@ -1,7 +1,11 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/scheduler.dir/FifoMemory.cpp.o"
   "CMakeFiles/scheduler.dir/FifoReadyQueue.cpp.o"
+  "CMakeFiles/scheduler.dir/LeastRecentlyUsed.cpp.o"
+  "CMakeFiles/scheduler.dir/MostRecentlyUsed.cpp.o"
   "CMakeFiles/scheduler.dir/ShortestJobFirstReadyQueue.cpp.o"
   "CMakeFiles/scheduler.dir/ApproximateShortestJobFirstReadyQueue.cpp.o"
+  "CMakeFiles/scheduler.dir/SecondChance.cpp.o"
   "CMakeFiles/scheduler.dir/Simulation.cpp.o"
   "CMakeFiles/scheduler.dir/Task.cpp.o"
   "CMakeFiles/scheduler.dir/scheduler_main.cpp.o"
